@@ -497,8 +497,8 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -9155,7 +9155,7 @@ textarea.form-control {
   background: #b1b493 !important; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9173,7 +9173,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #232931;
-  padding: 7em 0;
+  padding: 1em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -9417,18 +9417,18 @@ textarea.form-control {
 .block-23 ul {
   padding: 0; }
   .block-23 ul li, .block-23 ul li > a {
-    display: table;
+    display: inline;
     line-height: 1.5;
     margin-bottom: 15px; }
   .block-23 ul li span {
     color: rgba(255, 255, 255, 0.7); }
   .block-23 ul li .icon, .block-23 ul li .text {
-    display: table-cell;
+    display: inline-block;
     vertical-align: top; }
   .block-23 ul li .icon {
     width: 40px;
     font-size: 18px;
-    padding-top: 2px;
+    padding-left: 2px;
     color: white; }
 
 .contact-section .img {
